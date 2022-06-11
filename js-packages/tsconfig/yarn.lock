@@ -10,9 +10,9 @@
     "@types/sizzle" "*"
 
 "@types/mithril@^2.0.7":
-  version "2.0.7"
-  resolved "https://registry.yarnpkg.com/@types/mithril/-/mithril-2.0.7.tgz#e4016c79ce206621d7aee23de189faf7b007e0d5"
-  integrity sha512-ByD422x0GnYh5MOEAWNyqfkw2QlKkK3Yf7y5e1CobDVPG9m+/ThblfrIHENihF7VnygT6sQRObPvY1J/fUZICg==
+  version "2.0.11"
+  resolved "https://registry.yarnpkg.com/@types/mithril/-/mithril-2.0.11.tgz#090fb16e5ffcc616f7f409a2b3d50a90427f8b97"
+  integrity sha512-2tYTImXc7RzWkPpgcbnSKpV46DQI4Bm8CfgmkrIbst8MJlX6d8hdgy2yQCEf5NZYLGNyK4xbzb4rr8VPmk0iXQ==
 
 "@types/sizzle@*":
   version "2.3.3"
