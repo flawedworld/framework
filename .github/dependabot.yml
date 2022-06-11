@@ -1,0 +1,53 @@
+version: 2
+updates:
+  # CI
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: daily
+    target-branch: main
+  # Repo root
+  - package-ecosystem: composer
+    directory: "/"
+    schedule:
+      interval: daily
+    target-branch: main
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: daily
+    target-branch: main
+  # Extensions
+  - package-ecosystem: composer
+    directory: "/extensions/*/"
+    schedule:
+      interval: daily
+    target-branch: main
+  - package-ecosystem: npm
+    directory: "/extensions/*/js/"
+    schedule:
+      interval: daily
+    target-branch: main
+  # Core
+  - package-ecosystem: composer
+    directory: "/framework/core/"
+    schedule:
+      interval: daily
+    target-branch: main
+  - package-ecosystem: npm
+    directory: "/framework/core/js/"
+    schedule:
+      interval: daily
+    target-branch: main
+  # JS Packages
+  - package-ecosystem: npm
+    directory: "/js-packages/"
+    schedule:
+      interval: daily
+    target-branch: main
+  # PHP Packages
+  - package-ecosystem: composer
+    directory: "/php-packages/"
+    schedule:
+      interval: daily
+    target-branch: main
