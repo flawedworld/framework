@@ -7,7 +7,7 @@
         "frappe-charts": "^1.6.2"
     },
     "devDependencies": {
-        "@types/mithril": "^2.0.8",
+        "@types/mithril": "^2.0.11",
         "prettier": "^2.5.1",
         "flarum-webpack-config": "^2.0.0",
         "webpack": "^5.65.0",
