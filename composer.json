@@ -125,7 +125,7 @@
         "psr/http-message": "^1.0",
         "psr/http-server-handler": "^1.0",
         "psr/http-server-middleware": "^1.0",
-        "pusher/pusher-php-server": "^2.2",
+        "pusher/pusher-php-server": "^7.0",
         "s9e/text-formatter": "^2.3.6",
         "symfony/config": "^5.2.2",
         "symfony/console": "^5.2.2",
