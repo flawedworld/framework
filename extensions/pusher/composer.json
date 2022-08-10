@@ -23,7 +23,7 @@
         "pusher/pusher-php-server": "^2.2"
     },
     "require-dev": {
-        "flarum/tags": "^1.0"
+        "flarum/tags": "^1.x-dev"
     },
     "autoload": {
         "psr-4": {
